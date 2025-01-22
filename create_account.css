@@ -90,7 +90,7 @@ margin-right: 40px;
 }
 .forgot p{
     padding-left: 30px;
-    text-decoration: none;
+    text-decoration: underline;
     display: inline; 
     color:white; 
 }
