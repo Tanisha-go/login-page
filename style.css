@@ -1,0 +1,99 @@
+#Login-page{  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height:100vh;
+}
+.login{
+    width:400px;
+    background-color: #2F3343;
+    color:white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height:510px;
+}
+.heading{
+    background-color: #393B54;
+    padding-left: 40px;
+    height:50px;
+    color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.login-form{
+    padding-top: 40px; 
+    font-size: 12px;
+}
+input{
+    background-color:#393B54;
+    color:white;
+    width: 320px;
+    height:25px;
+    border:1px solid #778da9;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.label{
+    margin-left: 30px;
+}
+.login-button{
+    color:white;
+    background-color: #778da9;
+    width: 325px;
+    height:35px;
+    border-radius: 20px;
+    border:0px solid #778da9;
+    margin-left: 30px;
+}
+.google-icon{
+    width:15px;
+    height:15px;
+    padding:10px 15px 10px 5px; 
+}
+.enterprise-icon{
+    width:15px;
+    height:15px;
+    padding: 0px 15px 0px 5px;
+    
+}
+.Google-button{
+    background-color:#393B54;
+    width: 320px;
+    height:32px;
+    border:1px solid #778da9;
+    border-radius: 5px;
+    color:white;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Enterprise-button{
+    background-color:#393B54;
+    width: 320px;
+    height:30px;
+    border:1px solid #778da9;
+    border-radius: 5px;
+    color:white;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.line{
+margin-left: 30px;
+margin-right: 40px;
+}
+.forgot p{
+    padding-left: 30px;
+    text-decoration: underline;
+    display: inline;  
+}
+
+
+
+
