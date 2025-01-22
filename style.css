@@ -90,8 +90,9 @@ margin-right: 40px;
 }
 .forgot p{
     padding-left: 30px;
-    text-decoration: underline;
+    text-decoration: none;
     display: inline;  
+    color:white;
 }
 .line{
     flex:1;
