@@ -25,15 +25,31 @@
     padding-top: 40px; 
     font-size: 12px;
 }
-input{
+ input{
+    margin-left: 5px;
+    background-color:#393B54;
+    color:white;
+    width: 260px;
+    height:25px;
+    border: none;
+
+} 
+
+.eye{
+    padding-top: 2px;
+    padding-right: 5px;
+}
+.eye-icon{
     background-color:#393B54;
     color:white;
     width: 320px;
-    height:25px;
+    height:30px;
     border:1px solid #778da9;
     border-radius: 5px;
     margin-left: 30px;
-}
+    display: flex;
+    justify-content: space-between;}
+
 .label{
     margin-left: 30px;
 }
