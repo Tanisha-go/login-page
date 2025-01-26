@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -24,14 +24,13 @@
             </div>
             <br><br>
                 <label class="label">Password*</label><br>
-                <div class="eye-icon">
-                    <div>
-                        <input type="password" name="password" id="102"><br><br><br>
-                    </div>
-                    <div class="eye">
-                        <i class="material-icons toggle-password">visibility</i>
-                    </div>
-                </div>
+                <div class="password-toggle-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <input type="password" id="password" value="123456">
+                    <input type="text" id="password-text" value="123456">
+                   
+                    <label for="toggle" id="password-visibility-toggle">👁️</label>
+                  </div>
                 <br>
                 <br>
                 <button class="login-button"><b>Log in</b></button><br><br>

@@ -126,3 +126,56 @@ margin-right: 40px;
 }
 
 
+  .password-toggle-wrapper {
+    position: relative;
+    max-width: 318px;
+    margin-left: 25px ;
+    margin-bottom: 20px;
+  }
+
+  .password-toggle-wrapper input {
+    width: 100%;
+    padding: 0px 0px 5px 5px;
+    font-size: 16px;
+    border: 1.5px solid #778da9;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  .password-toggle-wrapper input[type="checkbox"] {
+    display: none;
+  }
+
+  .password-toggle-wrapper input[type="password"],
+  .password-toggle-wrapper input[type="text"] {
+    position: absolute;
+    
+  }
+
+  
+  .password-toggle-wrapper input[type="text"] {
+    display: none;
+  }
+
+  
+  .password-toggle-wrapper input[type="checkbox"]:checked ~ input[type="password"] {
+    display: none;
+  }
+
+  .password-toggle-wrapper input[type="checkbox"]:checked ~ input[type="text"] {
+    display: block;
+  }
+
+  .password-toggle-wrapper label {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin-top: 14px;
+    font-size: large;
+  }
+
+
+
+
